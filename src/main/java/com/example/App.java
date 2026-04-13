@@ -80,7 +80,7 @@ WebDriver driver = new FirefoxDriver(options);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            driver.quit(); 
+            driver.quit(); //  MUST for Jenkins
         }
     }
 }
